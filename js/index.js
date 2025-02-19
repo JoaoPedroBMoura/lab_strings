@@ -137,7 +137,7 @@
     document.getElementById("resultado8").innerText = "Diferença: aproximadamente " + semanas + " semanas.";
   }
 
-  // 9. Classificar força do texto (senha)
+  // 9. Classificar força da senha
   function classificarTexto() {
     let texto = document.getElementById("senha").value;
     let temMinuscula = /[a-z]/.test(texto);
@@ -163,7 +163,7 @@
     document.getElementById("resultado9").innerHTML = "<span class='" + classeCss + "'>" + classificacao + "</span>";
   }
 
-  // 10. Codificar frase (estratégia TENIS/POLAR)
+  // 10. Codificar frase 
   function codificarFrase() {
     let frase = document.getElementById("frase10").value;
     let mapa = {
