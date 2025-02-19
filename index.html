@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividades de Fundamentos da Web</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js"></script>
+</head>
+<body>
+  <h1>Atividades em JavaScript</h1>
+
+  <!-- 1. Inverter frase -->
+  <section id="inverter-frase">
+    <h2>1. Inverter Frase</h2>
+    <label for="frase1">Digite uma frase:</label><br>
+    <input type="text" id="frase1" style="width: 80%;" /><br><br>
+    <button onclick="inverterFrase()">Inverter</button>
+    <div class="result" id="resultado1"></div>
+  </section>
+
+  <!-- 2. Marcar vogais em negrito -->
+  <section id="vogais-negrito">
+    <h2>2. Marcar Vogais em Negrito</h2>
+    <label for="frase2">Digite uma frase:</label><br>
+    <input type="text" id="frase2" style="width: 80%;" /><br><br>
+    <button onclick="marcarVogais()">Marcar Vogais</button>
+    <div class="result" id="resultado2"></div>
+  </section>
+
+  <!-- 3. Contar frequência de palavras -->
+  <section id="frequencia-palavras">
+    <h2>3. Contar Frequência de Palavras</h2>
+    <label for="texto3">Digite um texto:</label><br>
+    <textarea id="texto3" rows="4" style="width: 80%;"></textarea><br><br>
+    <button onclick="contarPalavras()">Contar Palavras</button>
+    <div class="result" id="resultado3"></div>
+  </section>
+
+  <!-- 4. Palavra de maior ocorrência -->
+  <section id="maior-ocorrencia">
+    <h2>4. Palavra de Maior Ocorrência</h2>
+    <label for="texto4">Digite um texto:</label><br>
+    <textarea id="texto4" rows="4" style="width: 80%;"></textarea><br><br>
+    <button onclick="palavraMaisFrequente()">Encontrar Palavra</button>
+    <div class="result" id="resultado4"></div>
+  </section>
+
+  <!-- 5. Substituir texto -->
+  <section id="substituir-texto">
+    <h2>5. Substituir Texto</h2>
+    <label for="texto5">Digite um texto:</label><br>
+    <textarea id="texto5" rows="4" style="width: 80%;"></textarea><br><br>
+    <label for="buscar">Procurar:</label>
+    <input type="text" id="buscar" /><br><br>
+    <label for="substituir">Substituir por:</label>
+    <input type="text" id="substituir" /><br><br>
+    <button onclick="substituirTexto()">Substituir</button>
+    <div class="result" id="resultado5"></div>
+  </section>
+
+  <!-- 6. Dias de vida -->
+  <section id="dias-de-vida">
+    <h2>6. Calcular Dias de Vida</h2>
+    <label for="data-nascimento">Data de Nascimento (dd/mm/aaaa):</label><br>
+    <input type="text" id="data-nascimento" placeholder="ex: 03/05/1990" /><br><br>
+    <button onclick="calcularDiasDeVida()">Calcular</button>
+    <div class="result" id="resultado6"></div>
+  </section>
+
+  <!-- 7. Data por extenso -->
+  <section id="data-extenso">
+    <h2>7. Data por Extenso</h2>
+    <label for="data7">Digite uma data (dd/mm/aaaa):</label><br>
+    <input type="text" id="data7" placeholder="ex: 03/05/2017" /><br><br>
+    <button onclick="dataPorExtenso()">Converter</button>
+    <div class="result" id="resultado7"></div>
+  </section>
+
+  <!-- 8. Diferença em semanas entre duas datas -->
+  <section id="semanas-entre-datas">
+    <h2>8. Diferença em Semanas entre Duas Datas</h2>
+    <label for="data8-1">Primeira Data (dd/mm/aaaa):</label><br>
+    <input type="text" id="data8-1" placeholder="ex: 02/05/2017" /><br><br>
+    <label for="data8-2">Segunda Data (dd/mm/aaaa):</label><br>
+    <input type="text" id="data8-2" placeholder="ex: 02/07/2017" /><br><br>
+    <button onclick="semanasEntreDatas()">Calcular Semanas</button>
+    <div class="result" id="resultado8"></div>
+  </section>
+
+  <!-- 9. Classificar força do texto (senha) -->
+  <section id="classificar-texto">
+    <h2>9. Classificar Força do Texto (Senha)</h2>
+    <label for="senha">Digite o texto (senha):</label><br>
+    <input type="text" id="senha" style="width: 80%;" /><br><br>
+    <button onclick="classificarTexto()">Classificar</button>
+    <div class="result" id="resultado9"></div>
+  </section>
+
+  <!-- 10. Codificar frase (estratégia TENIS/POLAR) -->
+  <section id="codificar-frase">
+    <h2>10. Codificar Frase (Estratégia TENIS/POLAR)</h2>
+    <label for="frase10">Digite uma frase:</label><br>
+    <input type="text" id="frase10" style="width: 80%;" /><br><br>
+    <button onclick="codificarFrase()">Codificar</button>
+    <div class="result" id="resultado10"></div>
+  </section>
+
+</body>
+</html>
